@@ -1,0 +1,37 @@
+@media all and (max-device-width: 992px) {
+    h1{
+        font-size: 1.7vw;
+    }
+    h2{
+        font-size: 1.8vw;
+    }
+    p,a{
+        font-size: 1.5vw;
+    }
+}
+@media all and (max-device-width: 767px) {
+    h2{
+        font-size: 1.9vw;
+    }
+    p,a{
+        font-size: 1.6vw;
+    }
+    .HrefFoot {
+        display: grid;
+        grid-gap: 7px;
+    }
+    .HrefFootImg{
+        width: 110%;
+    }
+}
+@media all and (max-device-width: 480px) {
+    h2{
+        font-size: 2vw;
+    }
+    p,a{
+        font-size: 1.7vw;
+    }
+    .HrefFootImg{
+        width: 120%;
+    }
+}
